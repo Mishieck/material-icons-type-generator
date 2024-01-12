@@ -17,6 +17,7 @@ const dirNames = data
 const code = `export type MdIconName = \n| ${dirNames
   .map(name => `'${name}'`)
   .join('\n| ')};`;
+
 const filePath = 'material-icons-types.ts';
 await Bun.write(filePath, code);
 console.log(dirNames);
