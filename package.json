@@ -1,0 +1,14 @@
+{
+  "name": "github-api",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "octokit": "^3.1.2"
+  }
+}
